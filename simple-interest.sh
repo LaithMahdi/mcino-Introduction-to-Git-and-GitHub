@@ -24,3 +24,7 @@ read t
 s=$(expr $p \* $t \* $r / 100)
 echo "The simple interest is: "
 echo $s
+
+echo "The total amount after $t years is: "
+total=$(expr $p + $s)
+echo $total
